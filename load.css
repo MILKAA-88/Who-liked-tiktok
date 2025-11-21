@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+}
+.img {
+    width: 200px; 
+    height: 200px; 
+    animation: bounce 1s infinite alternate;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.tik {
+        animation: bounce 1s infinite alternate;
+        cursor: pointer;
+}
